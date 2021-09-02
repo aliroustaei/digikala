@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="ir-fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiKala</title>
+    <!---------- fav icon --------->
+    <link rel="shortcut icon" href="images/logo-app.svg" type="image/x-icon" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-------- Carousel ---------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.1/swiper-bundle.min.css" />
+    <!---- bootstrap ------>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!---- css ------>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!------- header ------->
+    <header class="shadow-sm container-fluid sticky-top">
+        <div class="header row g-0">
+            <div class="header-right col-12 col-md-6">
+                <div class="logo">
+                    <a href="#"></a>
+                </div>
+                <div class="search-box">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="جستجو در دیجی کالا ...">
+                </div>
+            </div>
+            <div class="header-left col-12 col-md-6">
+                <div class="profile">
+                    <i class="bi bi-person"></i>
+                    <p>ورود به حساب کاربری</p>
+                </div>
+                <i class="bi bi-cart2"></i>
+            </div>
+        </div>
+        <nav class="row g-0">
+            <div class="col-4 d-lg-none"><i id="hamburger" class="bi bi-list"></i></div>
+            <div class="nav-right d-none d-lg-block col-md-9">
+                <ul class="nav-list">
+                    <li class="list-item drop-down">
+                        <a href="#" class="list-item-titel"><i class="bi bi-list"></i>دسته بندی کالاها <i
+                                class="bi bi-x-circle d-inline-block d-lg-none"></i></a>
+                        <div class="overlay">
+                            <div class="list-iner d-none d-lg-flex shadow-sm">
+                                <div class="list-iner-right">
+                                    <ul>
+                                        <li><i class="bi bi-laptop"></i>کالای دیجیتال</li>
+                                        <li><i class="bi bi-gear"></i>ابزار و ماشین آلات</li>
+                                        <li><i class="bi bi-archive"></i>لباس و پوشاک</li>
+                                        <li><i class="bi bi-heart"></i>سلامتی و تندرست</li>
+                                        <li><i class="bi bi-house"></i>خانه و آشپزخانه</li>
+                                        <li><i class="bi bi-archive"></i>لباس و پوشاک</li>
+                                    </ul>
+                                </div>
+                                <div class="list-iner-left">
+                                    <a href="#">همه دسته بندی های کالای دیجیتال<i class="bi bi-chevron-left"></i></a>
+                                    <div class="list-iner-two">
+                                        <ul>
+                                            <li class="li-titel">لوازم جانبی گوشی</li>
+                                            <li>کیف و کاور گوشی</li>
+                                            <li>نگهدارنده گوشی</li>
+                                            <li>پاوربانک</li>
+                                            <li class="li-titel">گوشی موبایل</li>
+                                            <li>سامسونگ</li>
+                                            <li>هوآوی</li>
+                                            <li>اپل</li>
+                                            <li>شیائومی</li>
+                                            <li>ال جی</li>
+                                        </ul>
+                                        <ul>
+                                            <li class="li-titel">هدفون، هدست، هندزفری</li>
+                                            <li class="li-titel">اسپیکر بلوتوث و با سیم</li>
+                                            <li class="li-titel">دوربین</li>
+                                            <li>دوربین عکاسی</li>
+                                            <li>دوربین ورزشی</li>
+                                            <li>دوربین چاپ سریع</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel"><i class="bi bi-basket"></i></i>سوپرمارکت </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel"><i class="bi bi-award"></i>تخفیف ها و پیشنهادها </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel"><i class="bi bi-person-check"></i>دیجی کالای من</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel"><i class="bi bi-patch-plus"></i>دیجی پلاس </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel"><i class="bi bi-wallet2"></i>دیجی کلاب </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel">سوالی دارید؟ </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-item-titel">فروشنده شوید </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-left col-8 col-lg-3">
+                <a href="#">لطفا شهر و استان خود را انتخاب کنید<i class="bi bi-geo-alt"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!------- main ------->
+    <main>
+
+        <!--------- banner ---------->
+
+        <section class="banner my-3">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 d-none d-lg-block">
+                        <img loading="lazy" src="images/banner-1.jpg">
+                    </div>
+                    <div class="banner-right col-12 col-lg-8 mt-3">
+                        <div class="swiper swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="images/slider-banner-1.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="images/slider-banner-2.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="images/slider-banner-3.jpg">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img loading="lazy" src="images/slider-banner-4.jpg">
+                                </div>
+                            </div>
+                            <!-- pagination -->
+                            <div class="swiper-pagination pagination1"></div>
+
+                            <!-- navigation buttons -->
+                            <div class="swiper-button-prev button-prev-1 d-none d-sm-block"></div>
+                            <div class="swiper-button-next button-next-1 d-none d-sm-block"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 mt-3">
+                        <div class="row">
+                            <div class="col-6 col-lg-12">
+                                <img loading="lazy" src="images/banner-2.gif">
+                            </div>
+                            <div class="col-6 col-lg-12 my-lg-2">
+                                <img loading="lazy" src="images/banner-11.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- products -------->
+
+        <section class="products py-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-4 col-lg-2">
+                        <div class="offer-box">
+                            <img loading="lazy" src="images/offer.png">
+                            <button class="btn"> مشاهده همه <i class="bi bi-chevron-left"></i> </button>
+                        </div>
+                    </div>
+                    <div class="swiper swiper2 col-8 col-lg-10">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-01.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> پولوشرت آستین کوتاه مردانه باینت مدل 2261437-59</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 20,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">269,000</span>
+                                            <span class="off-2">50%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>135,000 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- navigation buttons -->
+                        <div class="swiper-button-prev button-prev-2 d-none d-sm-block"></div>
+                        <div class="swiper-button-next button-next-2 d-none d-sm-block"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- banner-second --------->
+
+        <section class="banner-second my-4">
+            <div class="container-fluid">
+                <div class="row gy-3">
+                    <div class="col-6 col-lg-3">
+                        <img src="images/banner-03.jpg">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img loading="lazy" src="images/banner-04.jpg">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img loading="lazy" src="images/banner-05.jpg">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img loading="lazy" src="images/banner-06.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- products super-market -------->
+
+        <section class="products super-market py-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-4 col-lg-2">
+                        <div class="offer-box">
+                            <img loading="lazy" src="images/super-market.png">
+                            <button class="btn"> مشاهده همه <i class="bi bi-chevron-left"></i> </button>
+                        </div>
+                    </div>
+                    <div class="swiper swiper2 col-8 col-lg-10">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product-box">
+                                    <div class="product-img">
+                                        <img loading="lazy" src="images/products/product-02.jpg">
+                                    </div>
+                                    <div class="product-titel">
+                                        <p> ناگت مرغ ب.آ مقدار 900 گرم بدون مواد افزودنی</p>
+                                    </div>
+                                    <div class="product-gift">
+                                        <p><i class="bi bi-gift"></i> 10,000 هزارتومان هدیه نقدی </p>
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="product-price-off">
+                                            <span class="off-1">98,900</span>
+                                            <span class="off-2">35%</span>
+                                        </div>
+                                        <div class="product-price-toman">
+                                            <p>64,200 <span>تومان</span></p>
+                                        </div>
+                                        <div class="product-bar">
+                                            <div class="bar-value"></div>
+                                        </div>
+                                        <div class="product-amazing">
+                                            <div class="remind">
+                                                <p><span>74%</span> فروش رفته</p>
+                                            </div>
+                                            <div class="time">
+                                                <p>08:13:22 <i class="bi bi-stopwatch"></i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- navigation buttons -->
+                        <div class="swiper-button-prev button-prev-2 d-none d-sm-block"></div>
+                        <div class="swiper-button-next button-next-2 d-none d-sm-block"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Third banner ------------>
+
+        <section class="third-banner my-4">
+            <div class="container-fluid">
+                <div class="row gy-3">
+                    <div class="col-12 col-lg-6">
+                        <img loading="lazy" src="images/banner-07.jpg">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img loading="lazy" src="images/banner-08.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- products-mobile ----------->
+
+        <section class="products products-mobile">
+            <div class="container-fluid">
+                <div class="row w-100 me-0 ms-0 align-items-center g-0 gy-3 gx-lg-4">
+                    <div class="col-12 col-lg-2 pe-0">
+                        <div class="offer-box">
+                            <i class="bi bi-award"></i>
+                            <p>شخصی سازی پیشنهادها!</p>
+                            <span>برای مشاهده پیشنهادهای مناسب خود و همچنین داشتن تجربه بهتر لطفا وارد حساب کاربری شوید.
+                            </span>
+                            <button class="btn"> ورود به حساب دیجی کالا
+                            </button>
+                            <small>ثبت‌نام رایگان در صورت نداشتن حساب کاربری</small>
+                        </div>
+                    </div>
+                    <div class="swiper-mobile col-12 col-lg-10">
+                        <div class="mobile-titel col-12">
+                            <h5>گوشی موبایل</h5>
+                            <p>براساس بازدیدهای شما</p>
+                            <div class="hr-line">
+                                <hr class="hr-1">
+                                <hr class="hr-2">
+                            </div>
+                        </div>
+                        <div class="swiper swiper2 col-12">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div loading="lazy" class="product-img">
+                                            <img src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-box">
+                                        <div class="product-img">
+                                            <img loading="lazy" src="images/products/product-03.jpg">
+                                        </div>
+                                        <div class="product-titel">
+                                            <p> گوشی موبایل شیائومی مدل POCO X3 Pro M2102J20SG دو سیم‌ کارت
+                                            </p>
+                                        </div>
+                                        <div class="product-price">
+                                            <div class="product-price-toman">
+                                                <p>6,865,000 <span>تومان</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- navigation buttons -->
+                            <div class="swiper-button-prev button-prev-2 d-none d-sm-block"></div>
+                            <div class="swiper-button-next button-next-2 d-none d-sm-block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!---------- icon box ----------->
+
+        <section class="icon-box my-4 d-none d-lg-block">
+            <div class="container-fluid">
+                <div class="row w-100 py-4 gx-0 text-center box">
+                    <h5>بیش از 4،000،000 کالا در دسته بندی های مختلف</h5>
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="icon-item">
+                            <i class="bi bi-laptop"></i>
+                            <p>کالای دیجیتال</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-gear"></i>
+                            <p>خودرو، ابزار و تجهیزات صنعتی</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-archive"></i>
+                            <p>مد و پوشاک</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-dice-5"></i>
+                            <p>اسباب بازی کودک</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-box-seam"></i>
+                            <p>کالاهای سوپرمارکتی</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-heart"></i>
+                            <p>زیبایی و سلامت</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-house"></i>
+                            <p>خانه و آشپزخانه</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-pencil"></i>
+                            <p>لوازم التحریر و کتاب</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                        <div class="icon-item">
+                            <i class="bi bi-cup-straw"></i>
+                            <p>ورزش و سفر</p>
+                            <span>+8000 کالا</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- products-other ----------->
+
+        <section class="products-other products-mobile mb-4 mt-4 mt-lg-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper-mobile">
+                            <div class="mobile-titel col-12">
+                                <h5>کتاب چاپی</h5>
+                                <p>براساس بازدیدهای شما</p>
+                                <div class="hr-line">
+                                    <hr class="hr-1">
+                                    <hr class="hr-2">
+                                </div>
+                            </div>
+                            <div class="swiper swiper2 col-12">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product-box">
+                                            <div class="product-img">
+                                                <img loading="lazy" src="images/products/product-04.jpg">
+                                            </div>
+                                            <div class="product-titel">
+                                                <p> کتاب تختخوابت را مرتب کن اثر ژنرال ویلیام اچ. مک ریون
+                                                </p>
+                                            </div>
+                                            <div class="product-price">
+                                                <div class="product-price-off">
+                                                    <span class="off-1">22,000</span>
+                                                    <span class="off-2">25%</span>
+                                                </div>
+                                                <div class="product-price-toman">
+                                                    <p>16,500 <span>تومان</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- navigation buttons -->
+                                <div class="swiper-button-prev button-prev-2 d-none d-sm-block"></div>
+                                <div class="swiper-button-next button-next-2 d-none d-sm-block"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------- Third banner ------------>
+
+        <section class="third-banner my-4">
+            <div class="container-fluid">
+                <div class="row gy-3">
+                    <div class="col-12 col-lg-6">
+                        <img loading="lazy" src="images/banner-09.jpg">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <img loading="lazy" src="images/banner-10.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------- Go to top---------->
+
+        <a href="#" class="goto-top">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+    </main>
+
+    <!------- footer ------->
+    <footer>
+        <div class="container-fluid">
+            <div class="row gx-0">
+
+                <div class="footer-logo col-12">
+                    <div class="logo">
+                        <img loading="lazy" src="images/logo-farsi.svg">
+                    </div>
+                    <button class="btn-f d-none d-lg-block" type="button">بازگشت به بالا<i
+                            class="bi bi-chevron-up"></i></button>
+                </div>
+
+                <div class="footer-contact col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-auto">
+                            <p>تلفن پشتیبانی:
+                                ۶۱۹۳۰۰۰۰ - ۰۲۱<span class="d-none d-lg-inline-flex">|</span></p>
+                        </div>
+                        <div class="col-12 col-lg-auto">
+                            <p>هفت روز هفته، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-icon col-12 py-4 d-none d-lg-flex">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="img-box pt-3">
+                            <img loading="lazy" src="images/post.svg">
+                        </div>
+                        <span>امکان تحویل اکسپرس</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="img-box">
+                            <img loading="lazy" src="images/pay.svg">
+                        </div>
+                        <span>امکان پراخت در محل</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="img-box">
+                            <img loading="lazy" src="images/support.svg">
+                        </div>
+                        <span>7 روز هفته، 24 ساعته</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="img-box">
+                            <img loading="lazy" src="images/back.svg">
+                        </div>
+                        <span>7 روز ضمانت بازگشت کالا</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="img-box">
+                            <img src="images/garanti.svg">
+                        </div>
+                        <span>ضمانت اصل بودن کالا</span>
+                    </div>
+                </div>
+
+                <div class="footer-menu col-12 my-4">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <h6>با دیجی کالا</h6>
+                            <ul>
+                                <li>اتاق خبر دیجی کالا</li>
+                                <li>فروش در دیجی کالا</li>
+                                <li>فرصت هاس شفلی</li>
+                                <li>تماس با دیجی کالا</li>
+                                <li>درباره دیجی کالا</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6>خدمات مشتریان</h6>
+                            <ul>
+                                <li>پاسخ به پرسش های متداول</li>
+                                <li>رویه های بازگرداندن کالا</li>
+                                <li>شرایط استفاده</li>
+                                <li>حریم خصوصی</li>
+                                <li>گزارش باگ</li>
+                            </ul>
+                        </div>
+                        <div class="col-3 d-none d-lg-block">
+                            <h6>راهنمای خرید از دیجی کالا</h6>
+                            <ul>
+                                <li>نحوه ثبت سفارش</li>
+                                <li>رویه ارسال سفارش</li>
+                                <li>شیوه های پرداخت</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h6>با ما همراه باشید</h6>
+                            <ul>
+                                <li class="d-flex">
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-linkedin"></i>
+                                </li>
+                            </ul>
+                            <h6>از جدید ترین تخفیف ها با خبر شوید</h6>
+                            <div class="footer-email">
+                                <input type="text" placeholder="آدرس ایمیل خود را وارد کنید">
+                                <button type="submit">ثبت</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-app col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 footer-app-right d-flex align-items-center">
+                            <img loading="lazy" src="images/logo-app.svg">
+                            <h6>دانلود اپلیکیشن دیجی کالا</h6>
+                        </div>
+                        <div
+                            class="footer-app-left mt-3 mt-lg-0 col-12 col-lg-8 d-flex gap-2 justify-content-center justify-content-lg-end">
+                            <div class="d-flex flex-column flex-lg-row gap-2">
+                                <div class="img-box">
+                                    <img loading="lazy" src="images/google-play.svg">
+                                </div>
+                                <div class="img-box">
+                                    <img loading="lazy" src="images/bazar.svg">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-lg-row gap-2 ">
+                                <div class="img-box">
+                                    <img loading="lazy" src="images/myket.png">
+                                </div>
+                                <div class="img-box">
+                                    <img loading="lazy" src="images/sieb.svg">
+                                </div>
+                                <div class="icon-box d-none d-lg-block">
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="enamad col-12 my-4">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <h6>فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h6>
+                            <p>دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با
+                                پایبندی به سه اصل، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا موفق شده
+                                تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به
+                                محض ورود به سایت دیجی‌کالا با دنیایی از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و
+                                به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.</p>
+                        </div>
+
+                        <div class="col-12 col-lg-4 d-flex gap-2 align-items-center justify-content-between">
+                            <div class="enamad-box">
+                                <img loading="lazy" src="images/Enamad.png">
+                            </div>
+                            <div class="enamad-box">
+                                <img loading="lazy" src="images/Enamad-2.png">
+                            </div>
+                            <div class="enamad-box">
+                                <img loading="lazy" src="images/Enamad-3.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright col-12 text-center py-4">
+                    <p class="d-none d-lg-block">
+                        استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع
+                        بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا)
+                        می‌باشد.
+                    </p>
+                    <p class="d-block d-lg-none">
+                        کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا)
+                        می‌باشد.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<!-------- swiper js ------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.1/swiper-bundle.min.js"></script>
+<script src="js/slider.js"></script>
+<!------ bootstrap js ------>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!----- index ----->
+<script src="js/index.js"></script>
+
+</html>
