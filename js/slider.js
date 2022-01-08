@@ -43,7 +43,7 @@ const swiper2 = new Swiper('.swiper2', {
     },
       keyboard: { enabled: true },
       grabCursor: true,
-      breakpoints: { 568: { slidesPerView: 2, slidesPerGroup: 2, autoplay:false }, 769:{slidesPerView: 3, slidesPerGroup: 3, autoplay:false} },
+      breakpoints: { 568: { slidesPerView: 2, slidesPerGroup: 2, autoplay:false }, 768:{slidesPerView: 3, slidesPerGroup: 3, autoplay:false},1200:{slidesPerView: 4, slidesPerGroup: 4, autoplay:false} },
       
     
     // Navigation arrows
